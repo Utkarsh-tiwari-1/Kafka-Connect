@@ -21,3 +21,19 @@ docker run -p 9092:9092 `
   -e KAFKA_OFFSETS_TOPIC_REPLICATION_FACTOR=1 `
   
   confluentinc/cp-kafka:7.2.15
+
+
+
+
+
+
+
+Running Locally
+
+. Run Multiple Consumers
+
+node consumer.js <GROUP_NAME>
+
+. Create Producer
+
+node producer.js
